@@ -6,6 +6,7 @@
   list-style-type: none;
   text-decoration: none;
 }
+
 @font-face {
   font-family: Opensans;
   src: 
@@ -223,7 +224,7 @@
 }
 
 .trends {
-  max-width: 1660px;
+  width: 100%;
   margin: 60px auto 0 auto;
 }
 .section-title {
@@ -382,6 +383,7 @@
   margin-right: auto;
   
   color: #0f0d0e;
+  overflow: hidden;
 }
 
 .main {
@@ -558,6 +560,7 @@
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute;
+  overflow: hidden;
 } 
 
 .input-search:focus, .input-email:focus, .button-link:focus {
@@ -630,8 +633,8 @@
 
 .theme {
   display: block;
-  margin-bottom: 40px;
-  padding-bottom: 15px;
+  margin-bottom: 16px;
+  padding-bottom: 13px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -1013,6 +1016,9 @@
 	.popup-container {
 		width: 92%;
 	}
+}
+.popup-hidden {
+	display: none;
 }
 
 .footer {
